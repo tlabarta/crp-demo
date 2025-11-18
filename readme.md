@@ -1,42 +1,120 @@
-# XAI Demo 2.0
+# Y-XAI — Concept-Based Explainability Showcase
 
-Welcome to the XAI Demo 2.0! This project aims to present the latest breaking research of our group with a modern look, fit and understandable for the specific target group. 
+<div align="center">
+  <img src="img/crp_logo.png" width="220"/>
+  <p>A visual demonstration of concept-based explainability using <a href="https://doi.org/10.1038/s42256-023-00711-8">Concept Relevance Propagation (CRP)</a></p>
+</div>
 
-## Release 1: CRP Demo for Girls Day 25.04.2024
+---
 
-In the first release, we wanted to develop a demo for the <i>Girls Day @ HHI</i> with the focus on image recognition. The demo aims to give more insights into how image recognitions works and how we can make it explainable by using concepts. We implemented the work from <i>Achtibat, R. et al. "From attribution maps to human-understandable explanations through concept relevance propagation".</i> We defined 4 scenarios to show potential use cases of XAI:
-1. <b>This is a flamingo!</b> - Learn how the AI recognizes a flamingo.
-2. <b>Is this a llama or ibex?</b> - The model made a mistake. Find out why.
-3. <b>Carton with or without cat?</b> - The AI is correct, but due to wrong reasons.
-4. <b>This is a dangerous!</b> - Problematic behavior of an AI for skin cancer detection.
-
-![prediction_results.png](img/prediction_results.png)
+# Introduction
 
 ![concepts.png](img/concepts.png)
 
-## Release 2: Guided mode
+**Y-XAI** is an interactive, presentation-ready demonstration designed to communicate how image-classification models make decisions and how concept-based explainability can expose the internal reasoning process of modern neural networks.
 
-In this release, we have enhanced our Image Recognition Demo with a new feature called <b>Guided Mode</b>. This update aims to make the demo more self-explanatory, enabling it to be presented without requiring team members to explain it.
+This repository hosts the **static front-end** used for showcasing *Concept Relevance Propagation* on **GitHub Pages**.  
 
-<b>Key Features of This Upgrade:</b>
+If you are interested in our **latest large-scale explanation system**, visit  
+👉 **https://semanticlens.hhi-research-insights.eu/**
 
-1. <b>Scenario Explanation:</b> To ensure that every user can follow and understand the storyline of each scenario, we have added explanations for concepts that are relevant to the model's decisions. These explanations are accompanied by interactive UI elements to engage users in discovering them.
-2. <b>Welcome Screen:</b> A newly designed landing page with a brief introduction to the demo (see Screenshot 1). This screen offers users the option to jump to a more detailed explanation of technical terms.
-3. <b>Detailed Explanation:</b> An in-depth explanation of key terms important for the demo, such as "class," "concept," and "concept visualization."
-4. <b>Timeout:</b> The demo will now reset to the landing page after 5 minutes of inactivity, ensuring a fresh start for new users.
+---
 
-<details>
-<summary>click to view scenario explanation</summary>
-![Scenario Explanation.png](img/Scenario Explanation.png)
-</details>
+# About [CRP (Concept Relevance Propagation)](https://doi.org/10.1038/s42256-023-00711-8)
 
-<details>
-<summary>click to view welcome screen</summary>
-![Welcome Screen.png](img/Welcome Screen.png)
-</details>
+Traditional heatmaps show *where* a neural network focuses.  
+[**CRP**](https://doi.org/10.1038/s42256-023-00711-8) reveals *what* the model is actually looking for.
 
-<details>
-<summary>click to view detailed explanation</summary>
-![Detailed Explanation.png](img/Detailed Explanation.png)
-</details>
+Neural networks learn **latent concepts**, structures such as textures, shapes, or semantic components. CRP isolates these internal concepts and shows how much each one contributes to a decision.
 
+In short:
+
+- Neural networks internally represent human-interpretable concepts  
+- CRP disentangles these concept-level signals  
+- Users can inspect *why* a prediction was made, not just *where* the network looked  
+- This enables detecting correct reasoning, errors, and hidden biases
+
+This demo translates the CRP method into a clear, visual guided experience, suitable for outreach, education, and public presentations.
+
+---
+
+# Demo Scenarios
+
+Below are the four scenarios included in the demo, rewritten from the official presenter notes.
+
+## 1. “This is a flamingo!”  
+*How the model correctly recognizes a flamingo.*
+
+This introduction scenario shows how CRP visualises the concepts that a model uses in a correct classification.  
+People often describe flamingos using features such as *long legs* or *pink feathers*.  
+CRP reveals whether the model relies on similar meaningful cues.  
+Heatmaps highlight where features were detected, while concept views show *what* was recognized (e.g., leg shape, feather texture).
+
+>**Key insight:**  
+Models can learn human-understandable concepts, and CRP shows which concepts were used for prediction.
+
+---
+
+## 2. “Is this a llama or ibex?”  
+*A misclassification explained.*
+
+In this case, the model incorrectly classifies a llama as an ibex.  
+The scenario highlights how explainability helps diagnose failure:
+
+- The shape of the ears  
+- Stones or mountains in the background  
+
+These concepts strongly influenced the model’s incorrect decision.  
+Interestingly, removing the ears or background stones leads to a correct classification.
+
+>**Key insight:**  
+CRP is crucial for understanding *why* models make mistakes and how they might be improved.
+
+---
+
+## 3. “Carton with or without cat?”  
+*A correct prediction for the wrong reasons.*
+
+The model correctly identifies a carton, but CRP reveals that its second-most important concept was a **cat face**.  
+The explanation exposes a common dataset bias: many cartons in the training data contained cats.
+
+>**Key insight:**  
+Models can make correct predictions for fundamentally wrong reasons.  
+Explainability is necessary to detect hidden correlations in training data.
+
+---
+
+## 4. “Band-aid or healthy skin?”  
+*Bias in a medical model with real-world risk.*
+
+This scenario parallels the previous one but in a more critical context: skin cancer detection.
+
+The model predicts “non-cancerous,” which is correct—but CRP shows it relied primarily on the presence of a **band-aid**.  
+During training, dermatologists often used band-aids to cover unwanted areas in healthy cases.  
+Thus, the model learned a dangerous shortcut: *band-aid = healthy*.
+
+>**Key insight:**  
+Explainability is essential for safety-critical systems.  
+Detecting such hidden biases can prevent severe misclassifications and guide dataset improvements.
+
+---
+
+# Citation
+If you reference CRP in academic or professional contexts, please cite:
+```bibtex
+@article{achtibat2023attribution,
+  title={From attribution maps to human-understandable explanations through Concept Relevance Propagation},
+  author={Achtibat, Reduan and Dreyer, Maximilian and Eisenbraun, Ilona and Bosse, Sebastian and Wiegand, Thomas and Samek, Wojciech and Lapuschkin, Sebastian},
+  journal={Nature Machine Intelligence},
+  volume={5},
+  number={9},
+  pages={1006–1019},
+  year={2023},
+  doi={10.1038/s42256-023-00711-8}
+}
+```
+---
+
+# License
+This project is released under the BSD 3-Clause Clear License.
+Please see the LICENSE file in this repository for full terms.
