@@ -1,6 +1,6 @@
 # XAI Demo 2.0
 
-Welcome to the XAI Demo 2.0! This project aims to present the latest breaking research of our group with a modern look, fit and understandable for the specific target group. For information on how to develop and run the demo, check out [CONTRIBUTING.md](CONTRIBUTING.md)! If you want to learn how the hosting and build process works check out the [BUILD_PROCESS.md](BUILD_PROCESS.md) You can access the latest productive demo version on <a href="http://2hh58c2/">http://2hh58c2/</a> and the latest development version on <a href="http://2hh58c2:9000/">http://2hh58c2:9000/</a>
+Welcome to the XAI Demo 2.0! This project aims to present the latest breaking research of our group with a modern look, fit and understandable for the specific target group. 
 
 ## Release 1: CRP Demo for Girls Day 25.04.2024
 
@@ -10,9 +10,9 @@ In the first release, we wanted to develop a demo for the <i>Girls Day @ HHI</i>
 3. <b>Carton with or without cat?</b> - The AI is correct, but due to wrong reasons.
 4. <b>This is a dangerous!</b> - Problematic behavior of an AI for skin cancer detection.
 
-![prediction_results.png](img%2Fprediction_results.png)
+![prediction_results.png](img/prediction_results.png)
 
-![concepts.png](img%2Fconcepts.png)
+![concepts.png](img/concepts.png)
 
 ## Release 2: Guided mode
 
@@ -27,16 +27,16 @@ In this release, we have enhanced our Image Recognition Demo with a new feature 
 
 <details>
 <summary>click to view scenario explanation</summary>
-![Scenario Explanation.png](img%2FScenario Explanation.png)
+![Scenario Explanation.png](img/Scenario Explanation.png)
 </details>
 
 <details>
 <summary>click to view welcome screen</summary>
-![Welcome Screen.png](img%2FWelcome Screen.png)
+![Welcome Screen.png](img/Welcome Screen.png)
 </details>
 
 <details>
 <summary>click to view detailed explanation</summary>
-![Detailed Explanation.png](img%2FDetailed Explanation.png)
+![Detailed Explanation.png](img/Detailed Explanation.png)
 </details>
 
