@@ -1,0 +1,15 @@
+// Startpunkt der Breite
+$base-width: 200px;
+
+$steps: 12;
+
+@for $i from 1 through $steps {
+    @media (min-width: 600px + $base-width * $i) {
+
+        // Erzeuge eine CSS-Regel
+        // Beispiel: Ändere die Schriftgröße basierend auf dem Schritt
+        html {
+            font-size: 70% + $i * 10; // Erhöht die Schriftgröße um 2px für jeden Schritt
+        }
+    }
+}
