@@ -1,0 +1,11 @@
+.default-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  color: black;
+  transition: color 0.5s ease;
+}
+
+.dark .default-icon {
+  color: white;
+}

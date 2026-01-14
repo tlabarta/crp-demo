@@ -1,0 +1,80 @@
+/* FrutigerLTCom-Roman */
+@font-face {
+  font-family: 'Frutiger LT';
+  src: url('../fonts/FrutigerLTCom-Roman_2911433028.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* FrutigerLTCom-Black */
+@font-face {
+  font-family: 'Frutiger LT';
+  src: url('../fonts/FrutigerLTCom-Black_1897108004.ttf') format('truetype');
+  font-weight: 900;
+  /* 900 is often used for 'Black' weight */
+  font-style: normal;
+}
+
+/* FrutigerLTCom-Bold */
+@font-face {
+  font-family: 'Frutiger LT';
+  src: url('../fonts/FrutigerLTCom-Bold_4087404487.ttf') format('truetype');
+  font-weight: bold;
+  /* 700 is the numeric value for 'bold' */
+  font-style: normal;
+}
+
+/* FrutigerLTCom-BoldItalic */
+@font-face {
+  font-family: 'Frutiger LT';
+  src: url('../fonts/FrutigerLTCom-BoldItalic_2379986211.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* FrutigerLTCom-Italic */
+@font-face {
+  font-family: 'Frutiger LT';
+  src: url('../fonts/FrutigerLTCom-Italic_2292391326.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* FrutigerLTCom-Light */
+@font-face {
+  font-family: 'Frutiger LT';
+  src: url('../fonts/FrutigerLTCom-Light_388284991.ttf') format('truetype');
+  font-weight: 300;
+  /* 300 is often used for 'Light' weight */
+  font-style: normal;
+}
+
+/* FrutigerLTCom-LightItalic */
+@font-face {
+  font-family: 'Frutiger LT';
+  src: url('../fonts/FrutigerLTCom-LightItalic_2526705051.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+h3 {
+  line-height: 2rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.3;
+}

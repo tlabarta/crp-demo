@@ -1,0 +1,1 @@
+{"id": "concept_0", "className": {"en": "band-aid", "de": "Pflaster"}, "scenarioExplanation": {"en": "The AI mistakenly associates band-aids with non-cancerous results due to biased training data.", "de": "Die KI verbindet fälschlich Pflaster mit nicht krebserregenden Ergebnissen wegen verzerrten Trainingsdaten."}, "importanceScore": 0.12309369444847107}
