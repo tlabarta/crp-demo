@@ -1,1 +1,12 @@
-{"id": "concept_2", "className": {"en": "carton texture", "de": "Karton Textur"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.0314522460103035}
+{
+  "id": "concept_2",
+  "className": {
+    "en": "carton texture",
+    "de": "Karton Textur"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 3.1452246010303497
+}

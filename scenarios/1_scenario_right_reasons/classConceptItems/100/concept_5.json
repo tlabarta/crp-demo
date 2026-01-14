@@ -1,1 +1,12 @@
-{"id": "concept_5", "className": {"en": "chain-like", "de": "Ketten-ähnlich"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.017668666318058968}
+{
+  "id": "concept_5",
+  "className": {
+    "en": "chain-like",
+    "de": "Ketten-ähnlich"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 1.7668666318058968
+}

@@ -1,1 +1,12 @@
-{"id": "concept_0", "className": {"en": "pointy snout", "de": "Spitze Schnauze"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.08388745784759521}
+{
+  "id": "concept_0",
+  "className": {
+    "en": "pointy snout",
+    "de": "Spitze Schnauze"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 8.388745784759521
+}

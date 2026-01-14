@@ -1,1 +1,12 @@
-{"id": "concept_4", "className": {"en": "stones", "de": "Steine"}, "scenarioExplanation": {"en": "Mountains and rocks in the background were also a factor in the wrong decision.", "de": "Berge und Steine im Hintergrund waren auch ein Faktor für die falsche Entscheidung."}, "importanceScore": 0.02046673558652401}
+{
+  "id": "concept_4",
+  "className": {
+    "en": "stones",
+    "de": "Steine"
+  },
+  "scenarioExplanation": {
+    "en": "Mountains and rocks in the background were also a factor in the wrong decision.",
+    "de": "Berge und Steine im Hintergrund waren auch ein Faktor für die falsche Entscheidung."
+  },
+  "importanceScore": 2.046673558652401
+}

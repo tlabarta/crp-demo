@@ -1,1 +1,12 @@
-{"id": "concept_2", "className": {"en": "band-aid", "de": "Pflaster"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.028465818613767624}
+{
+  "id": "concept_2",
+  "className": {
+    "en": "band-aid",
+    "de": "Pflaster"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 2.8465818613767624
+}

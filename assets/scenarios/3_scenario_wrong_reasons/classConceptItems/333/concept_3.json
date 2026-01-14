@@ -1,1 +1,12 @@
-{"id": "concept_3", "className": {"en": "cat face", "de": "Katzengesicht"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.028292585164308548}
+{
+  "id": "concept_3",
+  "className": {
+    "en": "cat face",
+    "de": "Katzengesicht"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 2.829258516430855
+}

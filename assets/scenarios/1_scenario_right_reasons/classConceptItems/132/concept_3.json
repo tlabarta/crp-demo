@@ -1,1 +1,12 @@
-{"id": "concept_3", "className": {"en": "red color", "de": "Rote Farbe"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.05434282869100571}
+{
+  "id": "concept_3",
+  "className": {
+    "en": "red color",
+    "de": "Rote Farbe"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 5.434282869100571
+}

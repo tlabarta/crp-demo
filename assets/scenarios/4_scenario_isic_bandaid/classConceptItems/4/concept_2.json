@@ -1,1 +1,12 @@
-{"id": "concept_2", "className": {"en": "dark mole", "de": "Dunkler Leberfleck"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.031516365706920624}
+{
+  "id": "concept_2",
+  "className": {
+    "en": "dark mole",
+    "de": "Dunkler Leberfleck"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 3.1516365706920624
+}

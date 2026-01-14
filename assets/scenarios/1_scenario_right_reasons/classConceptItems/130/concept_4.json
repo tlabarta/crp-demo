@@ -1,1 +1,12 @@
-{"id": "concept_4", "className": {"en": "grassy", "de": "Grasig"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.01650143973529339}
+{
+  "id": "concept_4",
+  "className": {
+    "en": "grassy",
+    "de": "Grasig"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 1.6501439735293388
+}

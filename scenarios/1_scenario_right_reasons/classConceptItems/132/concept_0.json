@@ -1,1 +1,12 @@
-{"id": "concept_0", "className": {"en": "thin legs", "de": "Dünne Beine"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.14073394238948822}
+{
+  "id": "concept_0",
+  "className": {
+    "en": "thin legs",
+    "de": "Dünne Beine"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 14.073394238948822
+}

@@ -1,1 +1,12 @@
-{"id": "concept_4", "className": {"en": "mole close to edge", "de": "Leberfleck nah zur Kante"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.018185969442129135}
+{
+  "id": "concept_4",
+  "className": {
+    "en": "mole close to edge",
+    "de": "Leberfleck nah zur Kante"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 1.8185969442129135
+}

@@ -1,1 +1,12 @@
-{"id": "concept_4", "className": {"en": "brown-red mole", "de": "braun-roter Leberfleck"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.01762467250227928}
+{
+  "id": "concept_4",
+  "className": {
+    "en": "brown-red mole",
+    "de": "braun-roter Leberfleck"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 1.7624672502279282
+}

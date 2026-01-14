@@ -1,1 +1,12 @@
-{"id": "concept_4", "className": {"en": "bright skin", "de": "Helle Haut"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.01888464391231537}
+{
+  "id": "concept_4",
+  "className": {
+    "en": "bright skin",
+    "de": "Helle Haut"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 1.8884643912315369
+}

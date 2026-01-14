@@ -1,1 +1,12 @@
-{"id": "concept_5", "className": {"en": "mushroom shape", "de": "Pilzförmig"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.012294401414692402}
+{
+  "id": "concept_5",
+  "className": {
+    "en": "mushroom shape",
+    "de": "Pilzförmig"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 1.2294401414692402
+}

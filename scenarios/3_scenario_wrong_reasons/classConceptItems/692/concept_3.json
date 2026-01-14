@@ -1,1 +1,12 @@
-{"id": "concept_3", "className": {"en": "brown/woody color", "de": "Braun/Holzfarbig"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.027084626257419586}
+{
+  "id": "concept_3",
+  "className": {
+    "en": "brown/woody color",
+    "de": "Braun/Holzfarbig"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 2.7084626257419586
+}

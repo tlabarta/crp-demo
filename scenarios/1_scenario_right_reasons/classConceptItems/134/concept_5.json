@@ -1,1 +1,12 @@
-{"id": "concept_5", "className": {"en": "arch", "de": "Bogenförmig"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.014954804442822933}
+{
+  "id": "concept_5",
+  "className": {
+    "en": "arch",
+    "de": "Bogenförmig"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 1.4954804442822933
+}

@@ -1,1 +1,12 @@
-{"id": "concept_5", "className": {"en": "stones", "de": "Steine"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.020541327074170113}
+{
+  "id": "concept_5",
+  "className": {
+    "en": "stones",
+    "de": "Steine"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 2.0541327074170113
+}

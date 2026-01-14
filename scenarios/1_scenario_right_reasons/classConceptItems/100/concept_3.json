@@ -1,1 +1,12 @@
-{"id": "concept_3", "className": {"en": "feathery/plumage", "de": "Federig/Gefieder"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.05497865751385689}
+{
+  "id": "concept_3",
+  "className": {
+    "en": "feathery/plumage",
+    "de": "Federig/Gefieder"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 5.497865751385689
+}

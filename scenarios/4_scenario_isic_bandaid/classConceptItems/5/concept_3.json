@@ -1,1 +1,12 @@
-{"id": "concept_3", "className": {"en": "hairy", "de": "Haarig"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": -0.018734706565737724}
+{
+  "id": "concept_3",
+  "className": {
+    "en": "hairy",
+    "de": "Haarig"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": -1.8734706565737724
+}

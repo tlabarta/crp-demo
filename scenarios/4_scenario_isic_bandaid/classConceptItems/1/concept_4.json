@@ -1,1 +1,12 @@
-{"id": "concept_4", "className": {"en": "spotted skin", "de": "Fleckige Haut"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": -0.023037895560264587}
+{
+  "id": "concept_4",
+  "className": {
+    "en": "spotted skin",
+    "de": "Fleckige Haut"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": -2.3037895560264587
+}

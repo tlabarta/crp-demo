@@ -1,1 +1,12 @@
-{"id": "concept_1", "className": {"en": "horns/curved form", "de": "Hörner/Gebogene Form"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.04550826549530029}
+{
+  "id": "concept_1",
+  "className": {
+    "en": "horns/curved form",
+    "de": "Hörner/Gebogene Form"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 4.550826549530029
+}

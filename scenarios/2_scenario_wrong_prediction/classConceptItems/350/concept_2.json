@@ -1,1 +1,12 @@
-{"id": "concept_2", "className": {"en": "shiny fur", "de": "Glänzendes Fell"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.027925565838813782}
+{
+  "id": "concept_2",
+  "className": {
+    "en": "shiny fur",
+    "de": "Glänzendes Fell"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 2.792556583881378
+}

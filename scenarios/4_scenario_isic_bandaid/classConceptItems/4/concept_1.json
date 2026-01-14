@@ -1,1 +1,12 @@
-{"id": "concept_1", "className": {"en": "bright, hairy skin", "de": "Helle, haarige Haut"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.03384573385119438}
+{
+  "id": "concept_1",
+  "className": {
+    "en": "bright, hairy skin",
+    "de": "Helle, haarige Haut"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 3.384573385119438
+}

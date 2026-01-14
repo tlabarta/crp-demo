@@ -1,1 +1,12 @@
-{"id": "concept_5", "className": {"en": "circular", "de": "Kreisförmig"}, "scenarioExplanation": {"en": "", "de": ""}, "importanceScore": 0.01863562874495983}
+{
+  "id": "concept_5",
+  "className": {
+    "en": "circular",
+    "de": "Kreisförmig"
+  },
+  "scenarioExplanation": {
+    "en": "",
+    "de": ""
+  },
+  "importanceScore": 1.8635628744959831
+}
